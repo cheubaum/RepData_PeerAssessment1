@@ -20,8 +20,9 @@ median(no_na_activity$steps)
 ```
 
 ## What is the average daily activity pattern?
-
-
+```{r}
+plot.ts(no_na_activity$date,no_na_activity$steps,plot.type = "l")
+```
 
 ## Imputing missing values
 
